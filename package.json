@@ -1,0 +1,9 @@
+{
+  "name": "security-news-docsify",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "python3 scripts/regenerate-sidebar.py",
+    "start": "python3 -m http.server 3000"
+  }
+}

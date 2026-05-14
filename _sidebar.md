@@ -1,0 +1,18 @@
+- **🏠 Home**
+  - [Dashboard](/)
+- **📅 Daily Digests**
+  - [May 14, 2026](/summaries/2026-05-14.md)
+  - [May 13, 2026](/summaries/2026-05-13.md)
+  - [May 12, 2026](/summaries/2026-05-12.md)
+  - [May 11, 2026](/summaries/2026-05-11.md)
+  - [May 10, 2026](/summaries/2026-05-10.md)
+  - [May 09, 2026](/summaries/2026-05-09.md)
+  - [May 08, 2026](/summaries/2026-05-08.md)
+- **📊 Stats**
+  - [Threat Dashboard](/stats.md)
+- **🔗 Sources**
+  - [The Hacker News](https://thehackernews.com/)
+  - [Krebs on Security](https://krebsonsecurity.com/)
+  - [CISA Alerts](https://www.cisa.gov/news-events/cybersecurity-advisories)
+  - [Dark Reading](https://www.darkreading.com/)
+  - [SecurityWeek](https://www.securityweek.com/)

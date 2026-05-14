@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Security News Digest</title>
+  <meta name="description" content="Daily cyber security news digest — aggregated from The Hacker News, Krebs on Security, CISA, Dark Reading, SecurityWeek">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+  <!-- Docsify -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/style.min.css">
+  <style>
+    :root {
+      --base-font-size: 15px;
+      --content-max-width: 900px;
+    }
+    /* Dark theme overrides */
+    .app-nav a.active { border-bottom-color: #42b983; }
+    .markdown-section h2 { border-bottom: 2px solid #e74c3c; padding-bottom: 6px; }
+    .markdown-section h3 { color: #e67e22; }
+    .markdown-section a { color: #3498db; }
+    .search { border-bottom: 1px solid #42b983 !important; }
+    .sidebar-nav li > a[href^="#/summaries/"] { font-size: 0.9em; }
+    /* Severity badges */
+    .critical { color: #e74c3c; font-weight: bold; }
+    .high { color: #e67e22; font-weight: bold; }
+    .medium { color: #f1c40f; font-weight: bold; }
+    .low { color: #3498db; }
+    /* Responsive */
+    @media (max-width: 768px) {
+      .markdown-section { padding: 0 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '🛡️ Cyber Security News',
+      repo: '',
+      loadSidebar: '_sidebar.md',
+      loadNavbar: '_navbar.md',
+      homepage: 'README.md',
+      auto2top: true,
+      maxLevel: 2,
+      subMaxLevel: 3,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '🔍 Search threats, CVEs, tags...',
+        noData: '😔 No results found',
+        depth: 3,
+      },
+      tabs: {
+        persist: true,
+        sync: true,
+        theme: 'classic',
+        tabComments: true,
+      },
+      darklight: {
+        theme: 'dark',
+        defaultTheme: 'dark',
+      },
+      coverpage: false,
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/index.min.js"></script>
+  <!-- Mermaid (optional for future diagrams) -->
+  <script src="//cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+  </script>
+</body>
+</html>
