@@ -1,6 +1,7 @@
 - **🏠 Home**
   - [Dashboard](/)
 - **📅 Daily Digests**
+  - [May 18, 2026](/summaries/2026-05-18.md)
   - [May 17, 2026](/summaries/2026-05-17.md)
   - [May 16, 2026](/summaries/2026-05-16.md)
   - [May 15, 2026](/summaries/2026-05-15.md)
